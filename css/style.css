@@ -1,0 +1,346 @@
+@font-face {
+    font-family: 'BMJUA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+.body {
+    background-color: #444444;
+}
+
+.main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    margin-top: 350px;
+}
+
+.title {
+    font-family: 'BMJUA';
+    color: white;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainbox {
+    width: 300px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.mainimg {
+    width: 260px;
+    height: 410px;
+    position: absolute;
+    left: 6.5%;
+}
+
+.startbtn {
+    font-family: 'BMJUA';
+    background-color: white;
+    color: rgb(165, 51, 49);
+    width: 200px;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    font-size: 25px;
+    position: absolute;
+    left: 15.5%;
+    top: 340px;
+}
+
+.banner {
+    font-family: 'BMJUA';
+    color: white;
+    background-color: rgb(165, 51, 49);
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    line-height: 50px;
+}
+
+.polarea {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    width: 260px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.cardpage {
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.box {
+    position: relative;
+}
+
+.front {
+    width: 260px;
+    height: 410px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.back {
+    position: absolute;
+    width: 260px;
+    height: 410px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.txt {
+    font-family: 'BMJUA';
+    color: white;
+    position: absolute;
+    width: 220px;
+    margin-left: auto;
+    padding-left: 42px;
+    margin-right: auto;
+    margin-top: 330px;
+    text-align: center;
+}
+
+.savebox {
+    background-color: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 260px;
+    height: 410px;
+}
+
+.btnarea {
+    padding-top: 16px;
+    background-color: white;
+    width: 260px;
+    height: 170px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.filebox {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.filebox label {
+    margin-top: 10px;
+    background-color: rgb(165, 51, 49);
+    text-align: center;
+    cursor: pointer;
+    width: 250px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    font-family: 'BMJUA', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    line-height: 35px;
+}
+
+.filebox input[type="file"] {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.filebox snap {
+    margin-top: 10px;
+    background-color: rgb(165, 51, 49);
+    text-align: center;
+    cursor: pointer;
+    width: 250px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    font-family: 'BMJUA', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    line-height: 35px;
+}
+
+.redbtn {
+    background-color: rgb(165, 51, 49);
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+}
+
+.greenbtn {
+    background-color: rgb(37, 121, 76);
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+}
+
+.yellowbtn {
+    background-color: rgb(253, 244, 165);
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+}
+
+.blackbtn {
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+}
+
+.type {
+    font-family: 'BMJUA', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: -2px;
+}
+
+.onbtn {
+    font-family: 'BMJUA', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    background-color: rgb(165, 51, 49);
+    border: none;
+    width: 60px;
+    border-radius: 8px;
+    color: white;
+}
+
+.offbtn {
+    font-family: 'BMJUA', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    background-color: rgb(37, 121, 76);
+    border: none;
+    width: 60px;
+    border-radius: 8px;
+    color: white;
+}
+
+.txtinput {
+    font-family: 'BMJUA', sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(242, 242, 242);
+    color: gray;
+    border: none;
+    text-align: center;
+}
+
+.save_btn {
+    background-color: rgb(165, 51, 49);
+    text-align: center;
+    width: 250px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.hover {
+    font-family: 'BMJUA';
+    font-size: 15px;
+    color: white;
+    letter-spacing: 0px;
+    line-height: 35px;
+}
+
+.copytxt {
+    margin-top: 10px;
+    background-color: rgb(165, 51, 49);
+    text-align: center;
+    width: 250px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    font-family: 'BMJUA', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    line-height: 35px;
+}
+
+.dev {
+    font-family: 'BMJUA';
+    font-weight: 500;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    margin-top: -50px;
+    font-family: 'BMJUA';
+    background-color: initial;
+    color: #AAAAAA;
+}
+
+video {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    /* Safari and Chrome */
+    -moz-transform: rotateY(180deg);
+    /* Firefox */
+    position: absolute;
+    margin-bottom: 0px;
+}
+
+canvas {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    /* Safari and Chrome */
+    -moz-transform: rotateY(180deg);
+    /* Firefox */
+    position: absolute;
+}
