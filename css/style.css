@@ -326,6 +326,33 @@ a:hover {
     color: #AAAAAA;
 }
 
+.reload {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.re {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.reshot {
+    margin-top: 5px;
+    background-color: rgb(165, 51, 49);
+    text-align: center;
+    cursor: pointer;
+    width: 250px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    font-family: 'BMJUA', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    line-height: 35px;
+}
+
 video {
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
