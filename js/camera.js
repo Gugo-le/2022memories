@@ -1,4 +1,4 @@
-document.getElementById("snapshot").addEventListener("click", function() {
+document.getElementById("video").addEventListener("click", function() {
     var video = document.getElementById('video');
 
     // Get access to the camera!
