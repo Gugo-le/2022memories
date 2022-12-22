@@ -181,15 +181,15 @@
 }
 
 .videoshot {
-    margin-top: 400px;
+    margin-top: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #bbb;
     text-align: center;
     cursor: pointer;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 100%;
@@ -372,7 +372,6 @@ video {
     /* Safari and Chrome */
     -moz-transform: rotateY(180deg);
     /* Firefox */
-    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -380,7 +379,7 @@ video {
     cursor: pointer;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 6px;
+    margin-top: -80px;
 }
 
 canvas {
@@ -390,4 +389,5 @@ canvas {
     -moz-transform: rotateY(180deg);
     /* Firefox */
     position: absolute;
+    aspect-ratio: 16 / 9;
 }
