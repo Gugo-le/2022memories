@@ -384,7 +384,6 @@ canvas {
     -moz-transform: rotateY(180deg);
     /* Firefox */
     position: absolute;
-    aspect-ratio: 16 / 9;
 }
 
 .ad-banner300 {
