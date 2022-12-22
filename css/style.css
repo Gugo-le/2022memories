@@ -180,8 +180,8 @@
     transform: translateX(-50%) translateY(-50%);
 }
 
-.videoshot {
-    margin-top: 350px;
+#videoshot {
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -193,11 +193,6 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 100%;
-    font-family: 'BMJUA', sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    color: white;
-    line-height: 35px;
 }
 
 .redbtn {
@@ -390,4 +385,14 @@ canvas {
     /* Firefox */
     position: absolute;
     aspect-ratio: 16 / 9;
+}
+
+.ad-banner300 {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.ad-banner320 {
+    max-width: 320px;
+    margin: 0 auto;
 }
