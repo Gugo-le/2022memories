@@ -92,7 +92,7 @@ function toggleImg1() {
 }
 
 function toggleImg2() {
-    document.getElementById("canvas").style.filter = "blur(1px)"
+    document.getElementById("canvas").style.filter = "blur(1.5px)"
 
 }
 
