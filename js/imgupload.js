@@ -87,19 +87,23 @@ function printName() {
 }
 
 function toggleImg1() {
-    document.getElementById("img1").src = "../img/tmp/red.png";
+    document.getElementById("canvas").style.filter = "grayscale(80%)"
+
 }
 
 function toggleImg2() {
-    document.getElementById("img1").src = "../img/tmp/green.png";
+    document.getElementById("canvas").style.filter = "blur(1px)"
+
 }
 
 function toggleImg3() {
-    document.getElementById("img1").src = "../img/tmp/yellow.png";
+    document.getElementById("canvas").style.filter = "sepia(50%)"
+
 }
 
 function toggleImg4() {
-    document.getElementById("img1").src = "../img/tmp/black.png";
+    document.getElementById("canvas").style.filter = "invert(100%)"
+
 }
 
 function imgon() {
