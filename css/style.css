@@ -108,13 +108,14 @@
 
 .txt {
     font-family: 'BMJUA';
+    font-size: 15px;
     color: white;
     position: absolute;
     width: 220px;
     margin-left: auto;
     padding-left: 42px;
     margin-right: auto;
-    margin-top: 345px;
+    margin-top: 335px;
     text-align: center;
 }
 
