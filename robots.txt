@@ -6,4 +6,4 @@ Allow: /
 
 User-agent: Yeti
 Allow: /
-Sitemap: https://https://2022memories.vercel.app/sitemap.xml/sitemap.xml
+Sitemap: https://2022memories.vercel.app/sitemap.xml/sitemap.xml
