@@ -4,7 +4,7 @@
 <br>
 
 
-<img src = "./img/frame.png" width="300">
+<img src = "./img/indeximg.png" width="300">
 
 안녕하세요! 구현승(Gugo-le)입니다.
 이번 프로젝트는 저 혼자가 아닌 한 명의 디자이너와 
