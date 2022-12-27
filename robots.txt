@@ -1,9 +1,10 @@
 User-agent: *
-Allow: /
+Disallow: /
 
 User-agent: Googlebot
 Allow: /
 
 User-agent: Yeti
 Allow: /
-Sitemap: https://2022memories.vercel.app/sitemap.xml
+Sitemap: https://https://2022memories.vercel.app/sitemap.xml
+Sitemap: https://https://2022memories.vercel.app/card.html/sitemap.xml
