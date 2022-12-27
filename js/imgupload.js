@@ -107,9 +107,10 @@ function toggleImg4() {
 }
 
 function imgon() {
-    document.getElementById("img2").src = "../img/deco/deco.png";
+    document.getElementById("canvas").style.filter = "blur(0px)"
 }
 
 function imgoff() {
-    document.getElementById("img2").src = "../img/blank.png";
+    document.getElementById("canvas").style.display = "none";
+
 }
